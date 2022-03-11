@@ -48,9 +48,13 @@ const Nav = () => {
   </div>
 </nav>
 
+<div className='container'>
+  <div className='row'>
+    <div className='column-6'>
  <ListaComponentes titulo={title} card={card}></ListaComponentes>
-
-
+ </div>
+ </div>
+ </div>
     </div>
   )
 }
